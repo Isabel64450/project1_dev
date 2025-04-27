@@ -42,7 +42,7 @@ body {
   color: white;
   text-align: center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   padding: 10px;
 }
 .left-side .description {
@@ -105,4 +105,4 @@ body {
   border-radius: 20px;
   cursor: pointer;
   font-size: 14px;
-}/*# sourceMappingURL=style-form.css.map */
+}
