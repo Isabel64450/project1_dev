@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galerie</title>
+    <link rel="stylesheet" href="galerie.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="icons/Izaberu-logo-90x90.gif"
+          alt="icon logo d'Izaberu Creations"
+        />
+      </div>
+      <nav class="nav">
+        <a href="#">E-boutique</a>
+        <a href="#" id="open-gallery">Galerie</a>
+        <a href="#" id="inscription-link">Inscription newsletters</a>
+      </nav>
+      <div id="formulaire-container"></div>
+    </header>
+    <section class="gallery">
+      <div class="gallery-item">
+        <img
+          src="images/Cirque de Gavarnie.jpg"
+          alt="Cirque de Gavarnie en watercolor"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/Crocus Pyrénéens.png"
+          alt="Croucus pyreneens"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/LA PAZ (BOLIVIE).png"
+          alt="la vue de l'illimani en watercolor"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/Galop sauvage.png"
+          alt="galop sauvage trois cheveaux"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/La vague de Kanagawa.jpg"
+          alt="Vague de Kanagawa"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/pyrenees1.jpeg"
+          alt="vue des Pyrénéens watercolor"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/Fleurs et cimes.jpg"
+          alt="Fleurs sauvages dans la montagne"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/2CV.jpg"
+          alt="voiture ancienne abandonee"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/Coin de provence.png"
+          alt="une explosion des couleurs en lavanda"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/Hacienda mexicana.jpg"
+          alt="Maison jeune avec des cactus watercolor"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/Les amoureux.png"
+          alt="une couple avec une tour plain des coleurs en violet et orange"
+          class="gallery-image"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="images/Les randonneurs.jpg"
+          alt="une couple des randenneurs au chemin de pic d'ausso"
+          class="gallery-image"
+        />
+      </div>
+    </section>
+    <div
+      id="lightbox"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <img
+        id="lightbox-img"
+        src=""
+        alt="Grande image"
+        style="max-width: 90%; max-height: 90%"
+      />
+    </div>
+    <footer>
+      <nav class="nav">
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Conditions générales d'utilisation</a>
+      </nav>
+    </footer>
+  </body>
+  <script src="galerie.js"></script>
+</html>

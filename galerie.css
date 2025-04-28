@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: rgb(202, 210, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: rgb(82, 121, 111);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  height: 80px;
+  width: 100%;
+}
+header .logo {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header .nav a {
+  margin-left: 1.5rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 2rem; */
+  background-color: rgb(47, 62, 70);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  height: 80px;
+  width: 100%;
+}
+footer .nav a {
+  margin-left: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gallery {
+  display: grid; /* grille responsive */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; /* espace entre les images */
+  padding: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px; /* coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* petite ombre */
+  transition: transform 0.3s ease; /* animation sur le survol */
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05); /* effet zoom au survol */
+}/*# sourceMappingURL=galerie.css.map */
