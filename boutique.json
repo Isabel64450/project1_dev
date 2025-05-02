@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "nom": "Aquarelle Le pic de Assaou",
+    "prix": 80.0,
+    "description": "Smartphone avec écran 6.8 pouces, caméra 108 MP, et batterie 5000 mAh.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71Uj6s5qD7L._AC_SY879_.jpg",
+
+    "categorie": "Aquarelle",
+    "disponibilite": "En stock",
+    "url": "https://www.amazon.com/dp/B08D6R6X9Y",
+    "poids": "150 g",
+    "dimensions": "29.7 x 42 cm",
+
+    "quantite_en_stock": 1,
+    "date_ajout": "2025-01-14",
+
+    "options": ["A3 - $80", "A4 - $40", "A5 - $20"]
+  },
+  {
+    "id": 2,
+    "nom": "Forêt d'automne",
+    "photo": "https://example.com/foret.jpg",
+    "prix": 50.0,
+    "description": "Peinture sur toile représentant une forêt en automne."
+  }
+]
